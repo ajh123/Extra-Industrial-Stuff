@@ -345,7 +345,7 @@
     "version": "1.0.0",
     "description": "A Minecraft Mod adding extra Industrial stuff",
     "author": "ajh123",
-    "websiteURL": "https://minersonline.uk",
+    "websiteURL": "https://minersonline.uk/wiki/extra-industrial-stuff/introduction",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
