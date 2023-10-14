@@ -2,9 +2,9 @@
   "_fv": 47,
   "_type": "tab",
   "definition": {
-    "name": "Extra Industrial Stuff",
+    "name": "Ext Ind Stuff",
     "icon": {
-      "value": "Blocks.REDSTONE_WIRE"
+      "value": "CUSTOM:SteelIngot"
     },
     "showSearch": true
   }
