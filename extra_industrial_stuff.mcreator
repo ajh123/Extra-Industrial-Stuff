@@ -270,6 +270,48 @@
           "src/main/resources/data/extra_industrial_stuff/recipes/steel_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steel_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelCasing",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_industrial_stuff/models/block/steel_casing.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steel_casing.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/block/SteelCasingBlock.java",
+          "src/main/resources/assets/extra_industrial_stuff/blockstates/steel_casing.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelCasingRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_casing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steel_casing_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -279,6 +321,7 @@
       "item.extra_industrial_stuff.steel_pickaxe": "Steel Pickaxe",
       "item.extra_industrial_stuff.steel_armor_boots": "Steel Boots",
       "item.extra_industrial_stuff.steel_ingot": "Steel",
+      "block.extra_industrial_stuff.steel_casing": "Steel Casing",
       "block.extra_industrial_stuff.steel_block": "Block of Steel",
       "item.extra_industrial_stuff.steel_sword": "Steel Sword",
       "item.extra_industrial_stuff.steel_armor_helmet": "Steel Helmet",

@@ -31,6 +31,7 @@ public class ExtraIndustrialStuffModTabs {
 				tabData.accept(ExtraIndustrialStuffModItems.STEEL_HOE.get());
 				tabData.accept(ExtraIndustrialStuffModBlocks.STEEL_BLOCK.get().asItem());
 				tabData.accept(ExtraIndustrialStuffModItems.STEEL_INGOT.get());
+				tabData.accept(ExtraIndustrialStuffModBlocks.STEEL_CASING.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

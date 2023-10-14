@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extra_industrial_stuff:block/steel_casing_top",
+    "up": "extra_industrial_stuff:block/steel_casing_top",
+    "north": "extra_industrial_stuff:block/steel_casing_side",
+    "east": "extra_industrial_stuff:block/steel_casing_side",
+    "south": "extra_industrial_stuff:block/steel_casing_side",
+    "west": "extra_industrial_stuff:block/steel_casing_side",
+    "particle": "extra_industrial_stuff:block/steel_casing_top"
+  },
+  "render_type": "solid"
+}

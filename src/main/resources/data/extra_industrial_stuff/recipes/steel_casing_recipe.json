@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "extra_industrial_stuff:steel_block"
+    },
+    {
+      "item": "extra_industrial_stuff:steel_block"
+    },
+    {
+      "item": "extra_industrial_stuff:steel_block"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "extra_industrial_stuff:steel_casing",
+    "count": 4
+  }
+}
