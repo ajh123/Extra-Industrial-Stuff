@@ -1,0 +1,42 @@
+{
+  "mod_elements": [
+    {
+      "name": "ExtraStuff",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extra_stuff"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabextra_stuff": "Extra Stuff"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "extra_stuff",
+    "modName": "Extra Stuff",
+    "version": "1.0.0",
+    "description": "A Minecraft Mod adding extra stuff",
+    "author": "ajh123",
+    "websiteURL": "https://minersonline.uk",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "tk.minersonline.extra_stuff",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
