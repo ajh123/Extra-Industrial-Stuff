@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "extra_industrial_stuff:steel_ingot"
+    },
+    "1": {
+      "item": "extra_industrial_stuff:steel_ingot"
+    },
+    "2": {
+      "item": "extra_industrial_stuff:steel_ingot"
+    },
+    "3": {
+      "item": "extra_industrial_stuff:steel_ingot"
+    },
+    "5": {
+      "item": "extra_industrial_stuff:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "extra_industrial_stuff:steel_armor_helmet",
+    "count": 1
+  }
+}

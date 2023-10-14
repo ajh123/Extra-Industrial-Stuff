@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "extra_industrial_stuff:item/steel_pickaxe"
+  }
+}

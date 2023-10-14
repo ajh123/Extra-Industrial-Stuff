@@ -15,7 +15,6 @@ package tk.minersonline.extra_industrial_stuff;
 
 import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModTabs;
 import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModItems;
-import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModFeatures;
 import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModBlocks;
 
 import org.apache.logging.log4j.Logger;
@@ -57,7 +56,6 @@ public class ExtraIndustrialStuffMod {
 		ExtraIndustrialStuffModItems.REGISTRY.register(bus);
 
 		ExtraIndustrialStuffModTabs.REGISTRY.register(bus);
-		ExtraIndustrialStuffModFeatures.REGISTRY.register(bus);
 
 	}
 
