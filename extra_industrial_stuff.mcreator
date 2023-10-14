@@ -3,11 +3,334 @@
     {
       "name": "ExtraIndustrialStuff",
       "type": "tab",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extra_industrial_stuff",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "Steal",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal",
+      "metadata": {
+        "files": [
+          "src/main/java/tk/minersonline/extra_industrial_stuff/item/StealItem.java",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal.json"
+        ]
+      }
+    },
+    {
+      "name": "StealOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/tk/minersonline/extra_industrial_stuff/block/StealOreBlock.java",
+          "src/main/resources/data/extra_industrial_stuff/forge/biome_modifier/steal_ore_biome_modifier.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/world/features/ores/StealOreFeature.java",
+          "src/main/resources/data/extra_industrial_stuff/worldgen/placed_feature/steal_ore.json",
+          "src/main/resources/assets/extra_industrial_stuff/blockstates/steal_ore.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_ore.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/block/steal_ore.json",
+          "src/main/resources/data/extra_industrial_stuff/worldgen/configured_feature/steal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "StealBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_industrial_stuff/blockstates/steal_block.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/block/StealBlockBlock.java",
+          "src/main/resources/assets/extra_industrial_stuff/models/block/steal_block.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "StealOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealOreSmelting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "StealPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_pickaxe.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/item/StealPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StealAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_axe.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/item/StealAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StealSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/tk/minersonline/extra_industrial_stuff/item/StealSwordItem.java",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "StealShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_shovel.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/item/StealShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StealHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/tk/minersonline/extra_industrial_stuff/item/StealHoeItem.java",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealShovelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_armor_leggings.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_armor_chestplate.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_armor_boots.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_armor_helmet.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/item/StealArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StealArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StealCasing",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/extra_industrial_stuff/blockstates/steal_casing.json",
+          "src/main/resources/assets/extra_industrial_stuff/models/item/steal_casing.json",
+          "src/main/java/tk/minersonline/extra_industrial_stuff/block/StealCasingBlock.java",
+          "src/main/resources/assets/extra_industrial_stuff/models/block/steal_casing.json"
+        ]
+      }
+    },
+    {
+      "name": "StealCasingRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal_casing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/extra_industrial_stuff/recipes/steal_casing_recipe.json"
+        ]
       }
     }
   ],
@@ -15,9 +338,22 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.extra_stuff.extra_stuff": "Extra Stuff",
+      "item.extra_industrial_stuff.steal_axe": "Steal Axe",
+      "item.extra_industrial_stuff.steal_armor_boots": "Steal Boots",
+      "item.extra_industrial_stuff.steal_armor_chestplate": "Steal Chestplate",
+      "block.extra_industrial_stuff.steal_block": "Block of Steal",
+      "block.extra_industrial_stuff.steal_casing": "Steal Casing",
       "item_group.extra_industrial_stuff.extra_industrial_stuff": "Extra Industrial Stuff",
-      "itemGroup.tabextra_stuff": "Extra Stuff"
+      "itemGroup.tabextra_stuff": "Extra Stuff",
+      "item.extra_industrial_stuff.steal_armor_leggings": "Steal Leggings",
+      "block.extra_industrial_stuff.steal_ore": "Steal Ore",
+      "item.extra_industrial_stuff.steal_hoe": "Steal Hoe",
+      "item_group.extra_stuff.extra_stuff": "Extra Stuff",
+      "item.extra_industrial_stuff.steal_shovel": "Steal Shovel",
+      "item.extra_industrial_stuff.steal_armor_helmet": "Steal Helmet",
+      "item.extra_industrial_stuff.steal_pickaxe": "Steal Pickaxe",
+      "item.extra_industrial_stuff.steal_sword": "Steal Sword",
+      "item.extra_industrial_stuff.steal": "Steal"
     }
   },
   "foldersRoot": {

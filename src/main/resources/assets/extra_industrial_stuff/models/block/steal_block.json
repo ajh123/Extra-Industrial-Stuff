@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "extra_industrial_stuff:block/steal_ore_block",
+    "particle": "extra_industrial_stuff:block/steal_ore_block"
+  },
+  "render_type": "solid"
+}

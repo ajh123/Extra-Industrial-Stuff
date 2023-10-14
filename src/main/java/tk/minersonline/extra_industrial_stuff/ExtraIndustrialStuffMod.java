@@ -13,6 +13,11 @@
  */
 package tk.minersonline.extra_industrial_stuff;
 
+import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModTabs;
+import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModItems;
+import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModFeatures;
+import tk.minersonline.extra_industrial_stuff.init.ExtraIndustrialStuffModBlocks;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -46,6 +51,13 @@ public class ExtraIndustrialStuffMod {
 	public ExtraIndustrialStuffMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ExtraIndustrialStuffModBlocks.REGISTRY.register(bus);
+
+		ExtraIndustrialStuffModItems.REGISTRY.register(bus);
+
+		ExtraIndustrialStuffModTabs.REGISTRY.register(bus);
+		ExtraIndustrialStuffModFeatures.REGISTRY.register(bus);
 
 	}
 

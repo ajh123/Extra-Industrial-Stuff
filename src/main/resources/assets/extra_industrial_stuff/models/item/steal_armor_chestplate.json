@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "extra_industrial_stuff:item/steal_body"
+  }
+}
