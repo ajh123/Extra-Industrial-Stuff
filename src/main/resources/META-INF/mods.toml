@@ -1,22 +1,20 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[47,)"
 license="GNU Lesser General Public License version 3 (LGPLv3)"
 
 [[mods]]
-modId="extra_stuff"
+modId="extra_industrial_stuff"
 version="1.0.0"
-displayName="Extra Stuff"
+displayName="Extra Industrial Stuff"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://minersonline.uk"
 authors="ajh123"
-description='''
-A Minecraft Mod adding extra stuff
-'''
+description="A Minecraft Mod adding extra Industrial stuff"
 
-[[dependencies.extra_stuff]]
+[[dependencies.extra_industrial_stuff]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 

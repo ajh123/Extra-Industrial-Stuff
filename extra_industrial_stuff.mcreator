@@ -1,18 +1,22 @@
 {
   "mod_elements": [
     {
-      "name": "ExtraStuff",
+      "name": "ExtraIndustrialStuff",
       "type": "tab",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "extra_stuff"
+      "registry_name": "extra_industrial_stuff",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item_group.extra_stuff.extra_stuff": "Extra Stuff",
+      "item_group.extra_industrial_stuff.extra_industrial_stuff": "Extra Industrial Stuff",
       "itemGroup.tabextra_stuff": "Extra Stuff"
     }
   },
@@ -21,10 +25,10 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "extra_stuff",
-    "modName": "Extra Stuff",
+    "modid": "extra_industrial_stuff",
+    "modName": "Extra Industrial Stuff",
     "version": "1.0.0",
-    "description": "A Minecraft Mod adding extra stuff",
+    "description": "A Minecraft Mod adding extra Industrial stuff",
     "author": "ajh123",
     "websiteURL": "https://minersonline.uk",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
@@ -34,9 +38,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.5",
-    "modElementsPackage": "tk.minersonline.extra_stuff",
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "tk.minersonline.extra_industrial_stuff",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202300336712
 }
